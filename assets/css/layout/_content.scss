@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: $bgd_color;
+
+    @at-root #output {
+        background: $fgd_color;
+        color: $txt_color;
+        box-shadow: $shadow_shift $shadow_shift $shadow_blur 0 $shd_color;
+        max-width: 50%;
+        padding: $output_padding;
+    }
+}

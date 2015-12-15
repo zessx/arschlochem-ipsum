@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*
+    Colors
+ */
+$bgd_color: #e74c3c;
+$fgd_color: #fefefe;
+$shd_color: #34495e;
+$txt_color: #1a2530;;
+
+
+/*
+    Durations
+ */
+$transition_duration: .3s;
+$transition_duration_max: .7s;
+
+
+/*
+    Sizes
+ */
+$shadow_shift: 0;
+$shadow_blur: 7px;
+$output_padding: 25px;
+
+
+/*
+    SassQueries
+ */
+$sq-breakpoints: (
+    wide:    1280px,
+    desktop: 1024px,
+    tablet:  900px,
+    mobile:  768px
+);
+$sq-media: screen;
+$sq-debug: false;
+$sq-mobile-first: false;

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/*
+    On définit dans ce fichier quelques réglages généraux,
+    et quelques classes utilitaires (la plupart héritant
+    de placeholders définis).
+ */
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: $transition_duration;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+p {
+    margin: 0;
+}
+
+ul, ol, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    word-break: break-word;
+}
+
+img {
+    max-width: 100%;
+}
+
+[disabled] {
+    cursor: default;
+}
+
+%left {
+    float: left;
+}
+%right {
+    float: right;
+}
+
+%clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+%hidden {
+    display: none;
+}
